@@ -1,0 +1,47 @@
+You are my front-end developer. Build me a personal portfolio website with a
+PHOTOGRAPHER / VISUAL STORYTELLER theme. I am a high school student photographer. The work
+should be the star — big images, lots of breathing room, gallery-first.
+
+ABOUT ME (placeholder content I can edit later):
+- Name: YOUR NAME
+- Tagline: photographer / visual storyteller
+- City: YOUR CITY
+- Bio: how I got into photography and what I love to shoot.
+- A hero photo strip (one large image + two smaller ones).
+- A masonry-style gallery of ~9 photos with optional captions and category filter chips
+  (All, Portrait, Street, Nature).
+- "Gear & skills" grouped into Cameras, Shoot, Edit, Also (shown as tags).
+- Social links: email, Instagram, LinkedIn, GitHub (placeholder URLs).
+
+TECH REQUIREMENTS (important):
+- Deliver ONE single self-contained file named index.html (all CSS in <style>, all JS in
+  <script>, no build tools, no frameworks). It must open by double-clicking.
+- Google Fonts via CDN <link> is fine, with readable fallbacks offline.
+- Plain HTML, CSS, and vanilla JavaScript only.
+
+DESIGN:
+- DARK gallery aesthetic by default (near-black background so photos pop) with a warm gold accent.
+- A crisp grotesk display font (e.g. Familjen Grotesk) + Inter for body.
+- Hero: an eyebrow, a big two-line headline, a short intro and availability note, then a photo
+  strip (one large landscape frame + a stacked pair).
+- A masonry gallery using CSS multi-columns so images of different heights tile nicely. Each
+  photo is a placeholder gradient now (varying aspect ratios) with a caption that sits over a
+  subtle bottom gradient — I'll swap each for a real <img> later. Category filter chips at the top
+  (the active one highlights; purely visual is fine).
+- Sections: Hero + strip, About (self-portrait + text), Gallery, Gear & skills, Contact (giant
+  headline). Sticky top nav.
+
+MUST-HAVE FEATURES:
+- Dark / light mode toggle that remembers my choice in localStorage (default dark).
+- A row of accent-color swatches in the nav (gold, terracotta, blue, green) to recolor the site,
+  saved to localStorage.
+- Fully responsive: the gallery goes 3 columns on desktop, 2 on tablet, 1 on phone. Nothing
+  overflows, overlaps, or gets cut off. Use clamp() for fonts.
+- Photo placeholders with dashed labels telling me what to drop in.
+- HTML comments marked [EDIT] everywhere I should customize text.
+
+ALSO CREATE README.md for a beginner explaining:
+1. opening index.html, 2. editing text/colors/links, 3. replacing each gradient with a real photo
+   (and good image sizes), 4. publishing free with GitHub Pages AND Netlify (drag-and-drop).
+
+After creating the files, tell me in one paragraph what to edit first.

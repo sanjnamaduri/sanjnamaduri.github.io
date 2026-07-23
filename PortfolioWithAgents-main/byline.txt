@@ -1,0 +1,43 @@
+You are my front-end developer. Build me a personal portfolio website with a
+WRITER / JOURNALIST / STORYTELLER theme. I am a high school student who writes. It should feel
+warm, literary, and elegant — like a beautifully typeset magazine or a good book.
+
+ABOUT ME (placeholder content I can edit later):
+- Name: YOUR NAME
+- Tagline: writer / journalist / storyteller
+- City: YOUR CITY
+- An "About the writer" essay (2 short paragraphs), the first with a drop-cap first letter.
+- A "Recent work" list of 4 writing clips, each with: publication name, year, an italicized
+  headline/title, and a one-line description with a "Read" link.
+- A toolkit of skills shown as small tags (feature writing, essay, reporting, editing, fiction…).
+- Social links: email, LinkedIn, GitHub, and Substack (placeholder URLs).
+
+TECH REQUIREMENTS (important):
+- Deliver ONE single self-contained file named index.html (all CSS in <style>, all JS in
+  <script>, no build tools, no frameworks). It must open by double-clicking.
+- Google Fonts via CDN <link> is fine, with readable fallbacks offline.
+- Plain HTML, CSS, and vanilla JavaScript only.
+
+DESIGN:
+- LIGHT, warm cream-paper aesthetic by default with a rust/ink accent. Centered, narrow reading
+  column (~720px) so it reads like a printed page. Thin rules separate each section.
+- A literary serif for headings and lead text (e.g. Spectral), small-caps labels (e.g. Spectral
+  SC) for section kickers, and a clean sans (e.g. Inter) for UI.
+- Hero: a small-caps kicker inside thin top/bottom rules, a large headline with one phrase in
+  the accent color, a serif subtitle, and a small ornament (❦).
+- Sections: Hero, About (drop-cap essay), Recent Work (an understated list of clips that indent
+  on hover), Skills (centered tags), Contact (italic headline + social buttons). Sticky minimal nav.
+
+MUST-HAVE FEATURES:
+- Dark / light mode toggle that remembers my choice in localStorage (default light).
+- A row of accent-color swatches in the nav (rust, green, blue, plum) to recolor the site,
+  saved to localStorage.
+- Fully responsive: flawless on phone, tablet, and laptop. Nothing overflows, overlaps, or gets
+  cut off. Use clamp() for fonts.
+- HTML comments marked [EDIT] everywhere I should customize text.
+
+ALSO CREATE README.md for a beginner explaining:
+1. opening index.html, 2. editing text/colors/links, 3. linking each clip to my published work,
+4. publishing free with GitHub Pages AND Netlify (drag-and-drop).
+
+After creating the files, tell me in one paragraph what to edit first.

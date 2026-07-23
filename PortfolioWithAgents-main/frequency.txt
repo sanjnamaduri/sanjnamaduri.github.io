@@ -1,0 +1,42 @@
+You are my front-end developer. Build me a personal portfolio website with a
+MUSICIAN / MUSIC-PRODUCER theme. I am a high school student.
+
+ABOUT ME (use this as placeholder content I can edit later):
+- Name: YOUR NAME
+- Tagline: producer / beatmaker / sound designer
+- City: YOUR CITY
+- One-line bio: a few sentences about how I got into making music and what I make.
+- 3-4 "releases" or projects (EP, single, beat pack, a music tool I coded, etc.)
+- Skills grouped into: Production (DAWs), Sound design, Code, Other
+- Social links: email, GitHub, LinkedIn, and SoundCloud (use placeholder URLs)
+
+TECH REQUIREMENTS (important):
+- Deliver ONE single self-contained file named index.html. Put all CSS in a <style> tag
+  and all JS in a <script> tag in that same file. No build tools, no frameworks, no npm.
+  It must open by double-clicking the file.
+- It can load Google Fonts from a CDN <link>, but must still look fine offline (use fallback fonts).
+- Plain HTML, CSS, and vanilla JavaScript only.
+
+DESIGN:
+- Dark, moody "studio at 2am" aesthetic by default, with a purple/magenta accent color.
+- Expressive display font for headings (e.g. Syne) + clean sans for body (e.g. DM Sans).
+- A bold hero with my name, an animated audio-waveform graphic made from CSS bars,
+  and a photo placeholder.
+- Sections in this order: Hero, About, Releases/Projects (as a clickable track list),
+  Skills, Contact. A sticky top nav that links to each.
+
+MUST-HAVE FEATURES:
+- A dark / light mode toggle button that remembers my choice using localStorage.
+- A small row of accent-color swatches in the nav so I can recolor the whole site in one click,
+  also saved to localStorage.
+- Fully responsive: looks great on phone, tablet, and laptop. Text and images must never
+  overflow, overlap, or get cut off. Use clamp() for font sizes and CSS grid/flexbox with
+  minmax/auto-fit so it reflows on small screens.
+- Use a real <img> placeholder with a dashed box and a label telling me what photo to drop in.
+- Add HTML comments marked [EDIT] everywhere I should change text, so it's obvious what to customize.
+
+ALSO CREATE a second file, README.md, written for a beginner, that explains:
+1. how to open index.html, 2. how to edit my text/colors/links, 3. how to add my photo,
+4. how to publish it free with GitHub Pages AND with Netlify (drag-and-drop).
+
+After you create the files, give me a one-paragraph summary of what to edit first.
